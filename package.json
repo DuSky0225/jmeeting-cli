@@ -1,0 +1,35 @@
+{
+  "name": "jmeeting-cli",
+  "version": "1.0.5",
+  "description": "My custom CLI tool for Vue projects",
+  "main": "lib/index.js",
+  "bin": {
+    "jmeeting-cli": "./bin/jmeeting-cli.js"
+  },
+  "scripts": {
+    "versions": "npm version patch",
+    "publishs": "npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuSky0225/jmeeting-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "tool",
+    "vue"
+  ],
+  "author": "DuSky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DuSky0225/jmeeting-cli/issues"
+  },
+  "homepage": "https://github.com/DuSky0225/jmeeting-cli#readme",
+  "dependencies": {
+    "commander": "^8.0.0",
+    "ejs": "^3.1.6",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0"
+  }
+}
